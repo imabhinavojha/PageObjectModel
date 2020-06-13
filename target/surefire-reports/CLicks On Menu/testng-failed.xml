@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CLicks On Menu]">
+  <test thread-count="5" verbose="0" name="Menu Check(failed)">
+    <classes>
+      <class name="com.TestCases.Opencart_Click">
+        <methods>
+          <include name="getResult"/>
+          <include name="beforeMethod"/>
+          <include name="FuncCeck"/>
+          <include name="endTest"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.TestCases.Opencart_Click -->
+    </classes>
+  </test> <!-- Menu Check(failed) -->
+</suite> <!-- Failed suite [CLicks On Menu] -->

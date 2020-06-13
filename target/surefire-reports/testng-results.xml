@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CLicks On Menu" duration-ms="17468" started-at="2020-06-13T06:14:22Z" finished-at="2020-06-13T06:14:39Z">
+    <groups>
+    </groups>
+    <test name="Menu Check" duration-ms="17468" started-at="2020-06-13T06:14:22Z" finished-at="2020-06-13T06:14:39Z">
+      <class name="com.TestCases.Opencart_Click">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.TestCases.Opencart_Click@1b68b9a4]" name="setUP" is-config="true" duration-ms="9991" started-at="2020-06-13T06:14:22Z" finished-at="2020-06-13T06:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.TestCases.Opencart_Click@1b68b9a4]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-06-13T06:14:32Z" finished-at="2020-06-13T06:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.TestCases.Opencart_Click.FuncCeck() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FuncCeck()[pri:1, instance:com.TestCases.Opencart_Click@1b68b9a4]" name="FuncCeck" duration-ms="7311" started-at="2020-06-13T06:14:32Z" description="Check Click" finished-at="2020-06-13T06:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FuncCeck -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.TestCases.Opencart_Click@1b68b9a4]" name="getResult" is-config="true" duration-ms="4" started-at="2020-06-13T06:14:39Z" finished-at="2020-06-13T06:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FuncCeck status=SUCCESS method=Opencart_Click.FuncCeck()[pri:1, instance:com.TestCases.Opencart_Click@1b68b9a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.TestCases.Opencart_Click@1b68b9a4]" name="endTest" is-config="true" duration-ms="129" started-at="2020-06-13T06:14:39Z" finished-at="2020-06-13T06:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.TestCases.Opencart_Click -->
+    </test> <!-- Menu Check -->
+  </suite> <!-- CLicks On Menu -->
+</testng-results>
